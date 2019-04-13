@@ -20,7 +20,7 @@ export class RestService {
   }
 
   public post(url, data): Observable<string> {
-    return this.http.post<string>(this.url + url, data, {headers: this.headers});
+    return this.http.post<string>(this.url + url, {headers: this.headers});
   }
 
   public put(url: string, data: any): Observable<string> {

@@ -9,16 +9,40 @@ import { RestService } from './../services/rest.service';
 })
 export class AppComponent {
   title = 'fhictdigital-frontend';
-  favoriteCookie = document.cookie
 
   constructor(private translate: TranslateService, private rest : RestService) 
   {
+   
+    console.log(translate.data);
+   // translate.use('nl_advanced').then(() => {
+   //   console.log(translate.data);
+   // });
+
+   this.createPersona(); 
+  }
+
+  createPersona()
+  {
+    this.rest.post('v1/persona/create', '').subscribe(data => {
+      console.log(data);
+  });
+
+  //this.rest.get('v1/persona/reassign').subscribe(data => {
+  //  console.log(data);
+//});
+  }
+
+  cookieExist()
+  {
     if (document.cookie.indexOf('fhictdigital-backend.herokuapp.com') == -1 ) {
-
+      console.log("test");
     }
+    else{
+      console.log("123");
+    }
+  }
 
-    translate.use('').then(() => {
-      console.log(translate.data);
-    });
+  setLang(lang: string) {
+    this.translate.use(lang);
   }
 }

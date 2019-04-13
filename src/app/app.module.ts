@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, Component } from '@angular/core';
+import { NgModule, APP_INITIALIZER  } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,13 +8,20 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateService } from 'src/services/translate.service';
+import { TranslatePipe } from './components/pipe/translate.pipe';
+
+export function setupTranslateFactory(
+  service: TranslateService): Function {
+  return () => service.use('nl_advanced');
+}
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    TranslatePipe
   ],
   imports: [
   BrowserModule,
@@ -22,7 +29,13 @@ import { TranslateService } from 'src/services/translate.service';
     HttpClientModule
   ],
   providers: [
-    TranslateService
+    TranslateService,
+    {
+      provide: APP_INITIALIZER,
+      useFactory: setupTranslateFactory,
+      deps: [ TranslateService ],
+      multi: true
+    }
   ],
   bootstrap: [AppComponent]
 })
