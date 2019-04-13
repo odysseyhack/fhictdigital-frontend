@@ -16,12 +16,8 @@ module.exports = function (config)
   config.set({
     basePath: '',
     frameworks: frameworks,
-    plugins: [
-      plugins
-    ],
-    client: {
-      clearContext: false // leave Jasmine Spec Runner output visible in browser
-    },
+    plugins: [plugins],
+    client: {clearContext: false},
     coverageIstanbulReporter: {
       dir: require('path').join(__dirname, '../coverage/fhictdigital-frontend'),
       reports: ['html', 'lcovonly', 'text-summary'],
