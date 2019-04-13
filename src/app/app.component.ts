@@ -18,7 +18,7 @@ export class AppComponent {
    //   console.log(translate.data);
    // });
 
-   this.createPersona(); 
+   //this.createPersona(); 
   }
 
   createPersona()

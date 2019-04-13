@@ -5,7 +5,7 @@ html {
   body {
     background: linear-gradient(45deg, rgba(255, 214, 112, 0.8) 0%, rgba(255, 151, 112, 0.4) 100%);
     color: rgba(0, 0, 0, 0.6);
-    font-family: "aileronregular", sans-serif;
+    font-family: 'aileronregular', sans-serif;
     font-size: 14px;
     line-height: 1.6em;
     -webkit-font-smoothing: antialiased;
