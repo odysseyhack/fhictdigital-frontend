@@ -11,7 +11,6 @@
 
  frameworks = ['jasmine', '@angular-devkit/build-angular'];
 
-
 module.exports = function (config) 
 {
   config.set({
