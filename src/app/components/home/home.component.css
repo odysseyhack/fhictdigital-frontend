@@ -1,0 +1,45 @@
+#small-long{
+    margin: 2%;
+    width:25%;
+    height:80%;
+    background-color: white;
+    padding: 2%;
+}
+
+#big-one{
+    width:75%;
+    height:80%;
+}
+
+#big-long{
+    margin: 2%;
+    width:100%;
+    height: 20%;
+    background-color: white;
+    padding: 2%;
+}
+
+#big-down{
+    display: flex;
+    flex-wrap: nowrap;
+    width:100%;
+    height: 70%;
+    margin: 2%;
+}
+
+.little-square{
+    margin: 2%;
+    width:50%;
+    height:100%;
+    background-color: white;
+    padding: 2%;
+}
+
+.text-blocks{
+    font-size: 30pt;
+}
+
+.variable{
+    font-size:60pt;
+    color: #70d6ff;
+}
