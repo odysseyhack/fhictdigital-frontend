@@ -9,21 +9,22 @@ import { map, catchError, tap } from 'rxjs/operators';
 export class RestService {
 
   url = 'https://fhictdigital-backend.herokuapp.com/';
-  headers = new HttpHeaders({
-    'Content-Type': 'application/json'
-  })
 
+  enco : any = new HttpHeaders()
+  .set('Content-Type', 'application/x-www-form-urlencoded');
+
+  
   constructor(private http: HttpClient) { }
 
   public get(url): Observable<string> {
-    return this.http.get<string>(this.url + url, {headers: this.headers});
+    return this.http.get<string>(this.url + url,  {
+      headers: this.enco,withCredentials:true
+    });
   }
 
   public post(url, data): Observable<string> {
-    return this.http.post<string>(this.url + url, {headers: this.headers});
-  }
-
-  public put(url: string, data: any): Observable<string> {
-    return this.http.put<string>(this.url + url, data, {headers: this.headers});
+    return this.http.post<string>(this.url + url, "",  {
+      headers: this.enco,withCredentials:true
+    });
   }
 }

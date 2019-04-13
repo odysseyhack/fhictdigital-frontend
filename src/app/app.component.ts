@@ -26,10 +26,6 @@ export class AppComponent {
     this.rest.post('v1/persona/create', '').subscribe(data => {
       console.log(data);
   });
-
-  //this.rest.get('v1/persona/reassign').subscribe(data => {
-  //  console.log(data);
-//});
   }
 
   cookieExist()

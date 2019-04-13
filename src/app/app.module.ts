@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
-import { LoginComponent } from './components/login/login.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateService } from 'src/services/translate.service';
 import { TranslatePipe } from './components/pipe/translate.pipe';
+import { FormComponent } from './components/form/form.component';
+import { ConstructionComponent } from './components/construction/construction.component';
 
 export function setupTranslateFactory(
   service: TranslateService): Function {
@@ -20,11 +21,12 @@ export function setupTranslateFactory(
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    LoginComponent,
-    TranslatePipe
+    TranslatePipe,
+    FormComponent,
+    ConstructionComponent
   ],
   imports: [
-  BrowserModule,
+BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
