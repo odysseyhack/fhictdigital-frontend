@@ -1,8 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
 body{
     margin: 0;
     padding: 0;
-    font-family: "Aileron", sans-serif;
+    font-family: "aileronregular", sans-serif;
     font-size: 16pt;
     width:100vw;
     height:100vh;
@@ -22,8 +21,9 @@ a:hover{
 }
 
 .flex-container{
+    font-family: "aileronheavy", sans-serif;
     display: flex;
     flex-wrap: nowrap;
     height: 80vh;
-    width: 90vw;
+    width: 100vw;
 }

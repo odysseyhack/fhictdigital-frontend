@@ -7,13 +7,14 @@
 }
 
 #big-one{
+    margin: 2%;
     width:75%;
     height:80%;
 }
 
 #big-long{
     margin: 2%;
-    width:100%;
+    width:90%;
     height: 20%;
     background-color: white;
     padding: 2%;
@@ -22,17 +23,24 @@
 #big-down{
     display: flex;
     flex-wrap: nowrap;
-    width:100%;
+    width:94%;
     height: 70%;
     margin: 2%;
 }
 
 .little-square{
-    margin: 2%;
     width:50%;
     height:100%;
     background-color: white;
     padding: 2%;
+}
+
+#square{
+    margin-right: 2%;
+}
+
+#square2{
+    margin-left: 2%;
 }
 
 .text-blocks{

@@ -8,7 +8,7 @@ import { map, catchError, tap } from 'rxjs/operators';
 })
 export class RestService {
 
-  url = 'http://localhost:8080';
+  url = 'https://fhictdigital-backend.herokuapp.com/';
   headers = new HttpHeaders({
     'Content-Type': 'application/json'
   })
