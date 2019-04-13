@@ -6,13 +6,13 @@
       </div>
       <div class="form-content">
           <form>
-              <div class="form-group"><label for="username">Age</label><input type="text" id="age" name="age" required="required" /></div>
-              <div class="form-group"><label for="password">Sex</label><input type="text" id="sex" name="sex" required="required" /></div>
-              <div class="form-group"><label for="username">Income</label><input type="text" id="income" name="income" required="required" /></div>
-              <div class="form-group"><label for="password">Residence</label><input type="text" id="residence" name="residence" required="required" /></div>
-              <div class="form-group"><label for="password">Origin</label><input type="text" id="origin" name="origin" required="required" /></div>
-              <br>
-              <div class="form-group"><button type="submit">Log In</button></div>
+            <div class="form-group"><label for="username">Age</label><input [(ngModel)]="formData.age" type="text" id="age" name="age" required="required" /></div>
+            <div class="form-group"><label for="password">Sex</label><input [(ngModel)]="formData.sex" type="text" id="sex" name="sex" required="required" /></div>
+            <div class="form-group"><label for="username">Income</label><input [(ngModel)]="formData.income" type="text" id="income" name="income" required="required" /></div>
+            <div class="form-group"><label for="password">Residence</label><input [(ngModel)]="formData.residence" type="text" id="residence" name="residence" required="required" /></div>
+            <div class="form-group"><label for="password">Origin</label><input [(ngModel)]="formData.origin" type="text" id="origin" name="origin" required="required" /></div>
+            <br>
+            <div class="form-group"><button (click)="addData()" type="submit">Log In</button></div>
           </form>
       </div>
   </div>

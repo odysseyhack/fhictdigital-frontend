@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { formData } from './../../formData';
+import { RestService } from 'src/services/rest.service';
 
 @Component({
   selector: 'app-form',
@@ -10,9 +11,14 @@ export class FormComponent implements OnInit {
 
   formData = new FormData;
   
-  constructor() { }
+  constructor(private rest: RestService) { }
 
   ngOnInit() {
+  }
+
+  addData()
+  {
+    this.rest.post('v1/persona/create', formData).subscribe();
   }
 
 }

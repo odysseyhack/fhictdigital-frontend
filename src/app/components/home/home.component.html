@@ -2,7 +2,7 @@
     <div id="small-long"> <!-- small one-->
         <div class="content-text">
             <div class="text-blocks">
-            Until now you have build a pension of:
+            {{ 'FULLPENSION' | translate }}
             <div id="flex-text">
             <div class="variable">100 </div> <div class="variable1"> euros per month</div>
             </div>   
@@ -16,7 +16,7 @@
         <div id="big-long">   <!-- long-->
             
                 <p class="text-blocks">
-                    Welcome Sir Pieters
+                    {{ 'PERSONALDETAIL' | translate }} Pieters!
                 </p>
                 
                 <a href="./persona">Look at your personal details ></a>
@@ -25,7 +25,7 @@
         <div id="big-down"> <!-- two little ones-->
             <div class="little-square" id="square">
                     <p class="text-blocks-square">
-                        Propose your questions or plan an appointment.
+                        {{ 'REACHOUT' | translate }}
                     </p>
             
                     <a href="./questions">Reach out to us ></a>
@@ -33,7 +33,7 @@
 
             <div class="little-square" id="square2">
                     <p class="text-blocks-square">
-                        See how much your pension is worth.
+                        {{ 'PLAN' | translate }}
                     </p>
             
                     <a href="./calender">Plan your pension ></a>

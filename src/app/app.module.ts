@@ -10,6 +10,7 @@ import { TranslateService } from 'src/services/translate.service';
 import { TranslatePipe } from './components/pipe/translate.pipe';
 import { FormComponent } from './components/form/form.component';
 import { ConstructionComponent } from './components/construction/construction.component';
+import { FormsModule } from '@angular/forms';
 
 export function setupTranslateFactory(
   service: TranslateService): Function {
@@ -28,7 +29,8 @@ export function setupTranslateFactory(
   imports: [
 BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     TranslateService,
