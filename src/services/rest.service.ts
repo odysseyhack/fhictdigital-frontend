@@ -8,7 +8,7 @@ import { map, catchError, tap } from 'rxjs/operators';
 })
 export class RestService {
 
-  url = 'https://fhictdigital-backend-live.herokuapp.com/';
+  url = 'https://fhictdigital-backend-staging.herokuapp.com/';
 
   enco : any = new HttpHeaders()
   .set('Content-Type', 'application/x-www-form-urlencoded');

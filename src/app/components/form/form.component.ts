@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { formData } from './../../formData';
 import { RestService } from 'src/services/rest.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-form',
@@ -11,34 +12,17 @@ export class FormComponent implements OnInit {
 
   formData = new FormData;
   
-  constructor(private rest: RestService) { }
+  constructor(private rest: RestService, private router : Router) { }
 
   ngOnInit() {
   }
 
   createPersona()
   {
+    console.log(formData);
     this.rest.post('v1/persona/create', '').subscribe(data => {
-      console.log(data);
     });
 
-    console.log(this.getCookie('persona_tag'));
+    this.router.navigateByUrl('/home');
   }
-
-  cookieExist()
-  {
-    if (document.cookie.indexOf('persona_tag') == -1 ) {
-      console.log("test");
-    }
-    else{
-      console.log("123");
-    }
-  }
-
-   getCookie(name) {
-    var value = "; " + document.cookie;
-    var parts = value.split("; " + name + "=");
-    if (parts.length == 2) return parts.pop().split(";").shift();
-  }
-
 }

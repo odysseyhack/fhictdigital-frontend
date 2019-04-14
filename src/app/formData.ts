@@ -1,7 +1,8 @@
 export class formData{
-    age: number;
-    sex: string;
-    income: string;
-    residence: string;
-    origin: string;
+    age: number
+    gender:string
+    income: number
+    sector: string
+    residence: string
+    nationality: string
 }

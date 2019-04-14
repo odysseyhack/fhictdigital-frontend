@@ -1,0 +1,21 @@
+#long-slider{
+    z-index: 15;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    overflow: hidden;
+    width:60%;
+    height: 120vh;
+    background-color: white;
+    margin:20%;
+    margin-top:10%;
+    padding: 2%;
+    font-family: 'aileronregular', sans-serif;
+    font-size:14pt;
+}
+
+#long-slider h1{
+    font-family: 'aileronregular', sans-serif;
+    font-size:24pt;
+}
