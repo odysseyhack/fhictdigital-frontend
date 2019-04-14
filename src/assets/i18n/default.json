@@ -1,12 +1,12 @@
 {
-  "PERSONALDETAILS": "<h5>1ADVANCED</h5>",
-  "PENSIONSHORT": "2ADVANCED",
-  "FAQ": "3ADVANCED",
-  "PENSIONPLANNER": "4ADVANCED",
-
-  "PENSIONOVERVIEW": "1ADVANCED",
-  "PENSIONSTRUCTURE": "2ADVANCED",
-  "DUTYSCHEDULE": "3ADVANCED",
-  "SURVIVORSPENSION": "4ADVANCED",
-  "PENSIONACCRUAL": "4ADVANCED"
+  "PERSONALDETAILS": "Your details",
+  "PENSIONSHORT": "Until now you’ve saved up a pension of €X net each month (at an age of 67 and 3 months)",
+  "FAQ": "Do you have a question or looking for contact?",
+  "PENSIONPLANNER": "Plan your pension",
+  "PENSIONOVERVIEW": "Until now you’ve saved up a pension of €X net each month (at an age of 67 and 3 months) This amount has been rounded down. This amount is based on €X gross per month. The standard Old Age Pensions Act (OAPA) amount is not included here. Read more information about OAPA and your OAPA age on the website of the Social insurance bank. Other financial questions: Do you have other financial questions that do not concern your ABP pension? Then go to Kandoor.nl. The Kandoor guides help you answer your question about other money matters for free. ABP cooperates with Kandoor. You are leaving the MyABP website.",
+  "PENSIONSTRUCTURE": "The structure of your retirement pension: Saved at ABP Total accumulated retirement pension to date Net per month *Extra info* What has been taken into account in these amounts? We assume the rules of this year's Tax Authorities. This amount is without the standard OAPA benefit. This amount is without payroll tax credit.",
+  "DUTYSCHEDULE": "Service time overview You can see the period (s) in which you have accrued pension with ABP in your service overview. View your duty schedule.",
+  "SURVIVORSPENSION": "Survivor's pension If you die before the age of 65, your partner will receive from ABP: €X net per month This amount is based on gross per month The survivor's pension may partially expire if you no longer build up pension at the time of death. The General Surviving Relatives Act compensation expired on 1 May 2018. Read more information here (You’re leaving the MyABP website.) If you fall under the exception rule, you have received a letter about this. Do you have a period of service before 1996 and are you not covered by the special arrangements? Then your partner may be entitled to a supplement to the partner's pension. Do you not have a partner? Then your survivor's pension will be added to your retirement pension as much as possible when you retire.",
+  "PENSIONACCRUAL": "Pension growth €X over 2017 You can use this amount for your tax return. The pension accrual (factor A) is the amount by which your accrued pension has increased in a calendar year. You need factor A to determine how much fiscal scope you have."
 }
+

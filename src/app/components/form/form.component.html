@@ -6,11 +6,56 @@
       </div>
       <div class="form-content">
           <form>
-            <div class="form-group"><label for="username">Age</label><input [(ngModel)]="formData.age" type="text" id="age" name="age" required="required" /></div>
-            <div class="form-group"><label for="password">Gender</label><input [(ngModel)]="formData.sex" type="text" id="sex" name="sex" required="required" /></div>
-            <div class="form-group"><label for="username">Income</label><input [(ngModel)]="formData.income" type="text" id="income" name="income" required="required" /></div>
-            <div class="form-group"><label for="password">Residence</label><input [(ngModel)]="formData.residence" type="text" id="residence" name="residence" required="required" /></div>
-            <div class="form-group"><label for="password">Origin</label><input [(ngModel)]="formData.origin" type="text" id="origin" name="origin" required="required" /></div>
+            <div class="form-group"><label for="username">Age</label><input [(ngModel)]="formData.age" type="number" id="age" name="age" required="required" /></div>
+            <div class="form-group"><label for="password">Gender</label>
+              <select name="gender" [(ngModel)]="formData.gender">
+                <option name="male" value="male">Male</option>
+                <option name="male" value="female">Female</option>
+                </select></div>
+            <div class="form-group"><label for="username">Income</label><input [(ngModel)]="formData.income" type="number" id="income" name="income" required="required" /></div>
+            <div class="form-group"><label for="password">sector</label>
+              <select  name="sector" [(ngModel)]="formData.sector">
+                <option name="Industrie & energie" value="Industrie & energie">Industry & energy</option>
+                <option name="Bouw" value="Bouw">Construction</option>
+                <option name="Zorg & welzijn" value="Zorg & welzijn">Healthcare</option>
+                <option name="Handel & horeca" value="Handel & horeca">trade & hospitality</option>
+                <option name="Transport" value="Transport">Transport</option>
+                <option name="Overigedienstverlening" value="Overigedienstverlening">Remaining services </option>
+                <option name="F&Z dienstverlening" value="F&Z dienstverlening">F&Z servicest</option>
+                <option name="Openbaar bestuur" value="Openbaar bestuur">Public board</option>
+                <option name="Onderwijs" value="Onderwijs">Education</option>
+              </select>
+            </div>
+            
+            <div class="form-group"><label for="password">Residence</label>
+              <select  name="residence" [(ngModel)]="formData.residence">
+                <option name="Friesland" value="Friesland">Friesland</option>
+                <option name="Groningen" value="Groningen">Groningen</option>
+                <option name="Drenthe" value="Drenthe">Drenthe</option>
+                <option name="Overijsel" value="Overijsel">Overijsel</option>
+                <option name="Flevoland" value="Flevoland">Flevoland</option>
+                <option name="Gelderland" value="Gelderland">Gelderland</option>
+                <option name="Utrecht" value="Utrecht">Utrecht</option>
+                <option name="Noord-Holland" value="Noord-Holland">Noord-Holland</option>
+                <option name="Zuid-Holland" value="Zuid-Holland">Zuid-Holland</option>
+                <option name="Zeeland" value="Zeeland">Zeeland</option>
+                <option name="Noord-Brabant" value="Noord-Brabant">Noord-Brabant</option>
+                <option name="Limburg" value="Limburg">Limburg</option>
+              </select>
+            </div>
+            
+            <div class="form-group"><label for="password">nationality</label>
+              <select name="nationality"  [(ngModel)]="formData.nationality">
+                <option name="Nederland" value="Nederland">The Netherlands</option>
+                <option name="Duitsland" value="Duitsland">Germany</option>
+                <option name="Belgie" value="Belgie">Belgium</option>
+                <option name="USA" value="USA">United States of America</option>
+                <option name="VK" value="VK">United Kingdom</option>
+                <option name="Turkije" value="Turkije">Turkey</option>
+                <option name="Marocco" value="Marocco">Marocco</option>
+                <option name="Spanje" value="Spanje">Spain</option>
+              </select>
+            </div>
             <br>
             <div class="form-group"><button (click)="createPersona()" type="submit">Log In</button></div>
           </form>

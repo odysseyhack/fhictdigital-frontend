@@ -1,12 +1,12 @@
 {
-  "PERSONALDETAILS": "1ADVANCED",
-  "PENSIONSHORT": "2ADVANCED",
-  "FAQ": "3ADVANCED",
-  "PENSIONPLANNER": "4ADVANCED",
+  "PERSONALDETAILS": "<h5>Personal information</h5>",
+  "PENSIONSHORT": "By the current retirement age you have accumulated €X net gain per month toward your pension. Click here for a comprehensive view of your pension.",
+  "FAQ": "If you require additional information or have any other inquiries, a method of contact is listed below.",
+  "PENSIONPLANNER": "Plan your pension.",
 
-  "PENSIONOVERVIEW": "1ADVANCED",
-  "PENSIONSTRUCTURE": "2ADVANCED",
-  "DUTYSCHEDULE": "3ADVANCED",
-  "SURVIVORSPENSION": "4ADVANCED",
-  "PENSIONACCRUAL": "4ADVANCED"
+  "PENSIONOVERVIEW": "By the current retirement age you have accumulated €X net gain per month toward your pension. The amount displayed is rounded down. The amount displayed is based on your monthly gross. The Old Age Pensions Act (OAPA) amount shall not be included here. To acquire more information on the topic of the OAPA, visit the Social insurance bank’s site. Other financial questions: Do you have remaining financial concerns unrelated to your ABP pension? See Kandoor.nl for additional assistance. Guides on the Kandoor site help with these inquiries free of charge. ABP is affiliated with Kandoor. Now leaving the MyABP site.",
+  "PENSIONSTRUCTURE": "The structure of your retirement pension: Saved with ABP Total accrued retirement pension to date Net per month *Extra info* What has been taken into account in these amounts? We assume the rules of this year's Tax Authorities. The following items have NOT been included in the amount displayed above: standard OAPA benefit, payroll tax credit.",
+  "DUTYSCHEDULE": "Service time overview The period(s) in which you have accrued pension via ABP can be viewed in the service overview. View your duty schedule.",
+  "SURVIVORSPENSION": "Survivor's pension Should the owner of the pension be deceased before the age of 65, your partner shall receive from ABP: €X net per month The above amount is based on gross per month The survivor’s pension may partially expire if you were not continually adding to the pension at the time of passing. The General Surviving Relatives Act compensation expired on 1 May 2018. Read more information here (this means leaving the MyABP website.) If the exception rule is applicable, a confirmation of this should have been received via the mail. Do you have a period of service from before 1996, and are not covered by the special arrangements? Then your partner may be entitled to a supplement to the partner's pension. Is your marital status unmarried? If so, the survivor's pension will be added to the retirement pension as much as possible after retiring.",
+  "PENSIONACCRUAL": "Pension accrual €X over 2017 This amount is eligible for your tax return. The pension accrual (factor A) is the amount by which your accrued pension has increased in a calendar year. You need factor A to determine how much fiscal scope you have."
 }

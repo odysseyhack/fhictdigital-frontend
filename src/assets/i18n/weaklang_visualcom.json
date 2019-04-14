@@ -1,12 +1,12 @@
 {
-  "PERSONALDETAILS": "1ADVANCED",
-  "PENSIONSHORT": "2ADVANCED",
-  "FAQ": "3ADVANCED",
-  "PENSIONPLANNER": "4ADVANCED",
+  "PERSONALDETAILS": "Your personal information",
+  "PENSIONSHORT": "Well done! You’ve saved €X so far. When you retire at age 67 and 3 months, you’ll get €X per month as your pension.Click here if you want to know more about your savings.",
+  "FAQ": "If something is not clear, please reach out to us. We’re able to help you on various mediums.",
+  "PENSIONPLANNER": "Did you know you can plan your own retirement? Click here if you want to find out how.",
 
-  "PENSIONOVERVIEW": "1ADVANCED",
-  "PENSIONSTRUCTURE": "2ADVANCED",
-  "DUTYSCHEDULE": "3ADVANCED",
-  "SURVIVORSPENSION": "4ADVANCED",
-  "PENSIONACCRUAL": "4ADVANCED"
+  "PENSIONOVERVIEW": "Well done! You’ve saved €X so far. When you retire at age 67 and 3 months, you’ll get €X per month as your pension. Be aware that these numbers are rounded down, this means the exact amount of saving could be a bit higher. The calculations for these numbers are based on a monthly contribution of €X before taxes. There is an extra budget available for you because of the Old Age Pensions Act (OAPA). The monthly budget for this is €X, this number is not included in the calculations above. If you’re not sure what the OAPA means for you, you can read more information on the site of the Social insurance bank. [insert link here] Other financial questions: Do you have other financial questions that do not concern your ABP pension? Then go to Kandoor.nl. The Kandoor guides help you answer your questions about other money matters for free. ABP works together with Kandoor to make things as easy as possible. Be aware you are leaving the MyABP website if you click the link.[insert link here]",
+  "PENSIONSTRUCTURE": "Here you can see how we calculated your retirement pension. How much you’ve saved at ABP: How much the interest over your savings is worth so far: Amount you’ll receive after taxes: *Extra info* Things we thought about while calculating: There are rules in places written by the Tax Authorities. We took these rules into account. As mentioned before, these calculations do not include the standard OAPA budget. This amount does not include payroll tax credit.",
+  "DUTYSCHEDULE": "If you work for a certain amount of time, you accumulate money towards your pension savings. Here you can see at what times you’ve added value to your retirement pension. Click here to see your full duty schedule.",
+  "SURVIVORSPENSION": "Survivor's pension In the unfortunate event of your death before the age of 65, your partner will get a part of your ABP savings. The amount he/she will receive is €X each month. The act which regulated this compensation for your partner expired on 1 May 2018. You can read more information about it on their site. Click here if you want to know more (you will leave the ABP site). [ insert link here ] If there’s an exception in place for you, you should’ve received a letter explaining this to you. If you’re not sure after reading the link above, please reach out to us. If you’ve worked before 1996 and are not covered by the special arrangements, there’s a chance your partner may receive extra budget on top of their own pension. These special arrangements are explained in the link. Again, if they’re not 100% clear to you, please reach out to us.",
+  "PENSIONACCRUAL": "Pension growth €X over 2017 This amount is available for your tax return. The pension growth is the amount by which your accumulated pension has increased in a calendar year."
 }

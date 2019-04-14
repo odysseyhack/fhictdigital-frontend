@@ -18,8 +18,9 @@ export class HomeComponent implements OnChanges {
     this.rest.get('v1/persona/').subscribe(data => {
        this.requestData = data as unknown as requestData;
     
-       if(this.requestData != undefined)
+       if(this.requestData.success === true)
        {
+        console.log("fdsfsdf");
          this.setLang(this.requestData.data);
        }
       });

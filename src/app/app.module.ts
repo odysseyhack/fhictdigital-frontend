@@ -16,7 +16,7 @@ import { CookieService } from 'ngx-cookie-service';
 
 export function setupTranslateFactory(
   service: TranslateService): Function {
-  return () => service.use('nl_advanced');
+  return () => service.use('default');
 }
 
 @NgModule({

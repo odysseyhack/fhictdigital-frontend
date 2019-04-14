@@ -34,7 +34,7 @@
     letter-spacing: 0.2em;
   }
   
-  .form-group input {
+  .form-group input, select {
     outline: none;
     display: block;
     background: rgba(0, 0, 0, 0.05);
