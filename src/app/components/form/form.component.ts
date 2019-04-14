@@ -16,9 +16,29 @@ export class FormComponent implements OnInit {
   ngOnInit() {
   }
 
-  addData()
+  createPersona()
   {
-    this.rest.post('v1/persona/create', formData).subscribe();
+    this.rest.post('v1/persona/create', '').subscribe(data => {
+      console.log(data);
+    });
+
+    console.log(this.getCookie('persona_tag'));
+  }
+
+  cookieExist()
+  {
+    if (document.cookie.indexOf('persona_tag') == -1 ) {
+      console.log("test");
+    }
+    else{
+      console.log("123");
+    }
+  }
+
+   getCookie(name) {
+    var value = "; " + document.cookie;
+    var parts = value.split("; " + name + "=");
+    if (parts.length == 2) return parts.pop().split(";").shift();
   }
 
 }

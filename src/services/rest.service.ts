@@ -8,7 +8,7 @@ import { map, catchError, tap } from 'rxjs/operators';
 })
 export class RestService {
 
-  url = 'https://fhictdigital-backend.herokuapp.com/';
+  url = 'https://fhictdigital-backend-live.herokuapp.com/';
 
   enco : any = new HttpHeaders()
   .set('Content-Type', 'application/x-www-form-urlencoded');
@@ -23,7 +23,7 @@ export class RestService {
   }
 
   public post(url, data): Observable<string> {
-    return this.http.post<string>(this.url + url, "",  {
+    return this.http.post<string>(this.url + url, data,  {
       headers: this.enco,withCredentials:true
     });
   }
