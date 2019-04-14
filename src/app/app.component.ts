@@ -12,6 +12,6 @@ export class AppComponent {
 
   constructor(private translate: TranslateService, private rest : RestService) 
   {
-   
+    
   }
 }

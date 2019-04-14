@@ -20,13 +20,13 @@ export class HomeComponent implements OnChanges {
     
        if(this.requestData.success === true)
        {
-        console.log("fdsfsdf");
          this.setLang(this.requestData.data);
        }
       });
   }
 
   ngOnChanges() {
+    window.location.reload();
   }
   
   setLang(lang: string) {
